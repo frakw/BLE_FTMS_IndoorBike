@@ -1,5 +1,5 @@
 # BLE_FTMS_IndoorBike
- FTMS using BLE to communicate with indoor bike trainer\
+ FTMS using BLE to communicate with indoor bike trainer in Unity\
  equipment : Xpedo Apx pro\
  Unity : 2021.3.6 (LTS)\
  Visual Studio : 16.11.13 (Release x64)\
