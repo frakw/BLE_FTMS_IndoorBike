@@ -6,9 +6,10 @@
  dll project dependency : "MSVC C++ Buildtools", "Windows 10 SDK", ".NET Framework 4.7.2 SDK"\
  This project is based on https://github.com/adabru/BleWinrtDll \
  We modify the write characteristic part to make our trainer work\
- ![alt text](imgs/notify.png) \
+ ![notify](imgs/notify.png) \
  ===> \
- ![alt text](imgs/indicate.png) \
+ 
+ ![indicate](imgs/indicate.png) \
 
  In unity project we write some code to let connect function run in coroutine.\
  And we create a simple scene to show the example\
