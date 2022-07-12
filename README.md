@@ -11,11 +11,11 @@
  ![indicate](imgs/indicate.png)
 
  In unity project we write some code to let connect function run in coroutine.\
- And we create a simple scene to show the example\
+ And we create a simple scene to show the example
 
  For our trainer, three kinds of information can be received (speed RPM power)\
  Drag the slider to change the resistance value (note: the value cannot be written too frequently, otherwise it will cause the bluetooth to crash)\
  We have pack codes dll and scene into unitypackge, feel free to use it\
  Also there are an exe zip file for windows, you can quickly test if this project works for you\
- Here is the demo video (recording time difference not cut out)\
+ Here is the demo video\
  [![](imgs/cover.png)](https://youtu.be/xEg4C4ncuLI)
