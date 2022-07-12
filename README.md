@@ -5,9 +5,9 @@
  Visual Studio : 16.11.13 (Release x64)\
  dll project dependency : "MSVC C++ Buildtools", "Windows 10 SDK", ".NET Framework 4.7.2 SDK"\
  This project is based on https://github.com/adabru/BleWinrtDll \
- We modify the write characteristic part to make our trainer work\
+ We modify the write characteristic part to make our trainer work \
  ![notify](imgs/notify.png)
- ===> \
+ ===>
  ![indicate](imgs/indicate.png)
 
  In unity project we write some code to let connect function run in coroutine.\
