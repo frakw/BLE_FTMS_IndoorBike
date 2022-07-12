@@ -7,7 +7,7 @@
  This project is based on https://github.com/adabru/BleWinrtDll \
  We modify the write characteristic part to make our trainer work\
  ![alt text](imgs/notify.png) \
- ===> 
+ ===> \
  ![alt text](imgs/indicate.png) \
 
  In unity project we write some code to let connect function run in coroutine.\
