@@ -6,8 +6,8 @@
  dll project dependency : "MSVC C++ Buildtools", "Windows 10 SDK", ".NET Framework 4.7.2 SDK"\
  This project is based on https://github.com/adabru/BleWinrtDll \
  We modify the write characteristic part to make our trainer work\
- auto status = co_await characteristic.WriteClientCharacteristicConfigurationDescriptorAsync(GattClientCharacteristicConfigurationDescriptorValue::Notify);\
- ===> auto status = co_await characteristic.WriteClientCharacteristicConfigurationDescriptorAsync(GattClientCharacteristicConfigurationDescriptorValue::Indicate);\
+ ![alt text](imgs/notify.png) \
+ ===> ![alt text](imgs/indicate.png)\
 
  In unity project we write some code to let connect function run in coroutine.\
  And we create a simple scene to show the example\
@@ -17,4 +17,4 @@
  We have pack codes dll and scene into unitypackge, feel free to use it\
  Also there are an exe zip file for windows, you can quickly test if this project works for you\
  Here is the demo video (recording time difference not cut out)\
- [![](cover.png)](https://youtu.be/xEg4C4ncuLI)
+ [![](imgs/cover.png)](https://youtu.be/xEg4C4ncuLI)
